@@ -1,0 +1,94 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top navigation bar -->
+    <header class="navbar">
+        <div class="nav-left">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+
+        <div class="nav-right">
+            <a href="https://mail.google.com">Gmail</a>
+            <a href="https://images.google.com">Images</a>
+            <button class="apps-button" aria-label="Google apps">⠿</button>
+            <button class="profile-button" aria-label="Profile">N</button>
+        </div>
+    </header>
+
+    <!-- Main Google homepage -->
+    <main class="main-content">
+
+        <h1 class="google-logo">
+            <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
+        </h1>
+
+        <!-- Search bar -->
+        <form class="search-form" action="https://www.google.com/search" method="get">
+            <div class="search-box">
+                <span class="search-icon" aria-hidden="true"></span>
+
+                <input
+                    type="text"
+                    name="q"
+                    class="search-input"
+                    aria-label="Search Google"
+                >
+
+                <span class="mic-icon" title="Microphone">🎙️</span>
+                <span class="lens-icon" title="Google Lens">📷</span>
+            </div>
+
+            <!-- Search buttons -->
+            <div class="buttons">
+                <button type="submit">Google Search</button>
+                <button
+                    type="button"
+                    onclick="window.location.href='https://doodles.google/'"
+                >
+                    I'm Feeling Lucky
+                </button>
+            </div>
+        </form>
+
+        <!-- Language options -->
+        <div class="languages">
+            Google offered in:
+            <a href="#">हिन्दी</a>
+            <a href="#">বাংলা</a>
+            <a href="#">తెలుగు</a>
+            <a href="#">मराठी</a>
+            <a href="#">தமிழ்</a>
+            <a href="#">ગુજરાતી</a>
+            <a href="#">ಕನ್ನಡ</a>
+            <a href="#">ਪੰਜਾਬੀ</a>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="country">India</div>
+
+        <div class="footer-links">
+            <div class="footer-left">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search works</a>
+            </div>
+
+            <div class="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
