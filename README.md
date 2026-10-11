@@ -54,10 +54,6 @@ google-homepage-clone/
 
 No additional installation or dependencies are required.
 
-## 🌐 Live Demo
-
-**[View My Google Homepage Clone](https://YOUR-USERNAME.github.io/google-homepage-clone/)**
-
 *Replace `YOUR-USERNAME` with your GitHub username after enabling GitHub Pages.*
 
 ## 📚 What I Learned
@@ -84,8 +80,6 @@ Through this project, I practiced:
 **Neha Agrawal**
 
 Aspiring Web Developer | Learning HTML & CSS | Exploring Frontend Development
-
-- GitHub: [Visit My Profile](https://github.com/YOUR-USERNAME)
 
 ---
 
